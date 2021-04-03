@@ -1,6 +1,7 @@
 
 body{background-color:Cornsilk;
 }
+
 h1{font-family:veranda; 
 text-align:center; 
 color:black;
@@ -89,21 +90,40 @@ a:active {
   display: inline-block;
 }
 
-#tableNonCollapse {
-  border: 1px solid black;
+table.nonCollapse{
+	border: 1px solid black;
+	background-color: grey;
 }
-#tableCollapse {
-  border: 1px solid black;
-  border-collapse: collapse;
+th.nonCollapse{
+	border: 1px solid black;
+	padding: 15px;
+	background-color: lightgrey;
+	text-align: left;
 }
-#borderSpaceTable {
-  border-spacing: 5px;
+td.nonCollapse{
+	border: 1px solid black;
+	padding: 15px;
+	background-color: white;
 }
 
-th, td {
-  padding: 15px;
+table.collapse{
+	border: 1px solid black;
+	padding: 15px;
+	border-collapse: collapse;
+	background-color: grey;
+}
+th.collapse{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 15px;
+	background-color: lightgrey;
+	text-align: left;
+}
+td.collapse{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 15px;
+	background-color: white;
 }
 
-th {
-  text-align: left;
-}
+
