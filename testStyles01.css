@@ -1,3 +1,4 @@
+
 body{background-color:Cornsilk;
 }
 h1{font-family:veranda; 
@@ -21,4 +22,69 @@ text-align:left;
 }
 hr{background-color:white; 
 color:DarkGoldenRod;
+}
+
+a:link {
+  color: DarkGoldenRod;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightgrey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: tan;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: grey;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+#buttonLink:link {
+  background-color: white;
+  text-decoration: none;
+  color: DarkGoldenRod;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#buttonLink:visited {
+  background-color: grey;
+  text-decoration: none;
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#buttonLink:hover {
+  background-color: lightgrey;
+  text-decoration: none;
+  color: DarkGoldenRod;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#buttonLink:active {
+  background-color: grey;
+  text-decoration: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
