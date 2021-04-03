@@ -88,3 +88,22 @@ a:active {
   text-decoration: none;
   display: inline-block;
 }
+
+#tableNonCollapse {
+  border: 1px solid black;
+}
+#tableCollapse {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#borderSpaceTable {
+  border-spacing: 5px;
+}
+
+th, td {
+  padding: 15px;
+}
+
+th {
+  text-align: left;
+}
